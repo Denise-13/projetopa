@@ -52,8 +52,8 @@ fig.update_traces(marker_line_width=0.2, selector=dict(type='choroplethmapbox'))
 st.plotly_chart(fig, use_container_width=True)
 
 # --- Salvar localmente (opcional) ---
-fig.write_html("mapa_coef_variacao.html")
-fig.write_image("mapa_coef_variacao.png")
+#fig.write_html("mapa_coef_variacao.html")
+#fig.write_image("mapa_coef_variacao.png")
 
 
 
