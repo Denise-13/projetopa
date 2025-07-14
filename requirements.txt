@@ -1,11 +1,7 @@
-requests
-json
-tqdm
+streamlit
 pandas
 sidrapy
-unicodedata
-streamlit
-sys
-os
-plotly.express
-matplotlib.pyplot
+plotly
+matplotlib
+tqdm
+requests
