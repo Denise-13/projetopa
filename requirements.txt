@@ -1,0 +1,11 @@
+requests
+json
+tqdm
+pandas
+sidrapy
+unicodedata
+streamlit
+sys
+os
+plotly.express
+matplotlib.pyplot
