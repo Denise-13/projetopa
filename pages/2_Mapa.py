@@ -4,8 +4,14 @@ import plotly.express as px
 import json
 import pandas as pd
 
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 # Importa função de carregamento de dados já tratados
 from dados_sidra import carregar_dados_sidra
+
+
 st.set_page_config(layout="wide")
 st.subheader("Mapa de Uso da Internet por Região - Censo 2022")
 
