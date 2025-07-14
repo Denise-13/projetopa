@@ -2,7 +2,12 @@ import streamlit as st
 import plotly.express as px
 import pandas as pd
 
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))) #localizar dados_sidra.py
+
 from dados_sidra import carregar_dados_sidra
+
 
 st.set_page_config(layout="wide")
 st.title("📊 Gráficos de Uso da Internet por Região - Censo 2022")
